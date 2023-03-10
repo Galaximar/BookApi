@@ -1,0 +1,21 @@
+{
+  "name": "libros",
+  "version": "1.0.0",
+  "description": "Api de un ecommerce de libros",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.11.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "prisma": "^4.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
