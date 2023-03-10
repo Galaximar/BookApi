@@ -10,6 +10,8 @@ Agregar variables de entorno en el archivo .env
 - Ejecutar npx prisma migrate dev, dentro de la carpeta src para así guardar datos en la base de datos
 - Ejecutar npm start para correr el proyecto
 
+# Base URL <b>/api</b>
+
 # Peticiones <b>GET</b>
 
     Obtener productos: /products
