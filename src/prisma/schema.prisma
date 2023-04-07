@@ -17,13 +17,13 @@ model User {
   password  String
   photo     String?
   address   String?
-  cart      Cart      @relation(fields: [cartId], references: [id])
-  cartId String     @unique
+  cart      Cart?
 }
 
 model Cart {
   id        String     @id @default(uuid())
-  user      User?
+  user      User      @relation(fields: [userId], references: [id])
+  userId String     @unique
   products CartItem[]
 }
 
