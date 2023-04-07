@@ -2,7 +2,7 @@
   "name": "libros",
   "version": "1.0.0",
   "description": "Api de un ecommerce de libros",
-  "main": "src/app.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "nodemon ."
   },
